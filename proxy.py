@@ -93,7 +93,7 @@ def set_proxy(flag):
 	if not flag:	
 		proxy = input("Enter proxy : ")
 		port  = input("Enter port : ")
-		username = input("Enter uername : ")
+		username = input("Enter username : ")
 		password = getpass.getpass("Enter password : ")
 	writeToApt(proxy, port, username, password, flag)
 	writeToEnv(proxy, port, username, password, flag)
